@@ -1,0 +1,10 @@
+{
+  "C_Cpp.default.compilerPath": "C:\\Program Files\\mingw64\\bin\\c++",
+  "files.associations": {
+    "ostream": "cpp",
+    "iostream": "cpp"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
+}
