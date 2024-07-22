@@ -4,11 +4,6 @@
 #include <vector>
 using namespace std;
 
-int smallest(int a, int b)
-{
-    return a < b ? a : b;
-}
-
 vector<int> unionSortedArrays(int *arr_first, int *arr_second, int size_first, int size_second)
 {
     int i = 0, j = 0;
