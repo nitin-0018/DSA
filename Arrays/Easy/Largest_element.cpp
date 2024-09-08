@@ -2,7 +2,7 @@
 Problem to find the largest, secondLargest, secondSmallest element in the array
  */
 
-#include <bits/stdc++.h>
+/* #include <bits/stdc++.h>
 using namespace std;
 
 int SecondLargestElement(int *arr, int arr_size)
@@ -58,4 +58,35 @@ int main()
 
     // cout << "Second Largest Element is " << secondLargest;
     // cout << "Second Smallest Element is " << secondSmallest;
+} */
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int largestElement(int *arr, int arr_size)
+{
+
+    int largest = arr[0];
+
+    for (int i = 0; i < arr[i]; i++)
+    {
+        if (largest < arr[i])
+        {
+            largest = arr[i];
+        }
+    }
+
+    return largest;
+}
+
+int main()
+{
+
+    int arr[] = {10, 20, 40, 5, 20};
+
+    int arr_size = sizeof(arr) / sizeof(arr[0]);
+
+    int result = largestElement(arr, arr_size);
+
+    cout << "Largest Element is " << result;
 }
