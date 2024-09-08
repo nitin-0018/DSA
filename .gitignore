@@ -1,3 +1,6 @@
 # Ignore .vscode folder
 .vscode/
 *.exe
+/Arrays/Easy/*.exe
+**/*.exe
+

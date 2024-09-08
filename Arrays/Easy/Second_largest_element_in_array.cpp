@@ -23,7 +23,6 @@ int SecondLargestElement(int *arr, int arr_size)
         if (arr[i] != largest && secondLargest < arr[i])
         {
             secondLargest = arr[i];
-            cout << "Second ALrgest" << secondLargest;
         }
     }
 
