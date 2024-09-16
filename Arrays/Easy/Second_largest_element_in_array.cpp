@@ -7,7 +7,7 @@ int SecondLargestElement(int *arr, int arr_size)
     int largest = arr[0];
     int secondLargest = -1;
 
-    for (int i = 0; i < arr[i]; i++)
+    for (int i = 0; i < arr_size; i++)
     {
 
         // Firstly, find the largest element in the array

@@ -7,7 +7,7 @@ int SecondSmallestElement(int *arr, int arr_size)
     int smallest = arr[0];
     int secondSmallest = INT_MAX;
 
-    for (int i = 0; i < arr[i]; i++)
+    for (int i = 0; i < arr_size; i++)
     {
 
         // Firstly, find the smallest element in the array
